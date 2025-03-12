@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar - Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stellar</h1>
+        <p>Something amazing is coming soon.</p>
+
+        <form name="waitlist" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="waitlist">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="role" required>
+                <option value="">I am a...</option>
+                <option value="artist">Artist</option>
+                <option value="client">Client</option>
+            </select>
+            <textarea name="message" placeholder="Tell us about yourself (optional)"></textarea>
+            <button type="submit">Join the Waitlist</button>
+        </form>
+        
+
+        <p class="footer">Follow us: <a href="#">Instagram</a> </p>
+    </div>
+</body>
+</html>
